@@ -4,9 +4,13 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
+    public GameObject bullet;
 
     public float speed = 10f;
     Rigidbody2D rb;
+
+    public float distance = 10.0f;
+
 
     float mx;
     float my;
@@ -22,6 +26,7 @@ public class PlayerController : MonoBehaviour
     {
         mx = Input.GetAxisRaw("Horizontal");
         my = Input.GetAxisRaw("Vertical");
+
 
     }
 
