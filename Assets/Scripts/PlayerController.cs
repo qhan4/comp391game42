@@ -6,7 +6,7 @@ public class PlayerController : MonoBehaviour
 {
     public GameObject bullet;
 
-    public float speed = 10f;
+    public float speed = 3f;
     Rigidbody2D rb;
 
     public float distance = 10.0f;
@@ -33,5 +33,10 @@ public class PlayerController : MonoBehaviour
     private void FixedUpdate()
     {
         rb.velocity = new Vector2(mx, my) * speed;
+    }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        rb.velocity = Vector2.zero;
     }
 }
