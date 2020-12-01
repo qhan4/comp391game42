@@ -10,15 +10,19 @@ public class PlayerController : MonoBehaviour
     Rigidbody2D rb;
 
     public float distance = 10.0f;
+    public HPManager healthbar;
 
 
     float mx;
     float my;
 
+    int health = 3;
+
     // Start is called before the first frame update
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        healthbar.SetHealth(health);
     }
 
     // Update is called once per frame
@@ -38,9 +42,5 @@ public class PlayerController : MonoBehaviour
     private void OnCollisionEnter2D(Collision2D collision)
     {
         //Debug.Log("collision with " + collision.gameObject.name);
-        //if (collision.gameObject.layer == 8) // 8: SolidStructures
-        //{
-        //    rb.velocity = Vector2.zero;
-        //}
     }
 }

@@ -907,6 +907,7 @@ MonoBehaviour:
   bullet: {fileID: 6632054624985213605, guid: b2e2acc75ddc94215a4363d7d68c4154, type: 3}
   speed: 6
   distance: 10
+  healthbar: {fileID: 929501531}
 --- !u!50 &603626050
 Rigidbody2D:
   serializedVersion: 4
@@ -1008,6 +1009,7 @@ Transform:
   m_Children:
   - {fileID: 519420032}
   - {fileID: 2076472724}
+  - {fileID: 929501532}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1054,6 +1056,50 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -90}
+--- !u!1 &929501530
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 929501532}
+  - component: {fileID: 929501531}
+  m_Layer: 1
+  m_Name: HealthBar
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &929501531
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 929501530}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f333c965bf4b36d4398d68c18c691cf8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sprite: {fileID: 21300000, guid: eb461c8acb26b4e4cb827f41faa76fe0, type: 3}
+--- !u!4 &929501532
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 929501530}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -9}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 603626053}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1503959723
 GameObject:
   m_ObjectHideFlags: 0
@@ -1450,5 +1496,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bullet: {fileID: 6632054624985213605, guid: b2e2acc75ddc94215a4363d7d68c4154, type: 3}
   firePoint: {fileID: 2076472724}
-  bulletSpeed: 10
+  bulletSpeed: 25
   fireRate: 0.15
