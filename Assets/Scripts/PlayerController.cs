@@ -35,8 +35,12 @@ public class PlayerController : MonoBehaviour
         rb.velocity = new Vector2(mx, my) * speed;
     }
 
-    private void OnCollisionEnter(Collision collision)
+    private void OnCollisionEnter2D(Collision2D collision)
     {
-        rb.velocity = Vector2.zero;
+        //Debug.Log("collision with " + collision.gameObject.name);
+        //if (collision.gameObject.layer == 8) // 8: SolidStructures
+        //{
+        //    rb.velocity = Vector2.zero;
+        //}
     }
 }

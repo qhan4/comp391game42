@@ -58,7 +58,7 @@ GameObject:
   - component: {fileID: 449121342025703938}
   - component: {fileID: 3206938015079523645}
   - component: {fileID: 8045771680800837746}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: SERVER ROOM DRAFT
   m_TagString: Untagged
   m_Icon: {fileID: 0}

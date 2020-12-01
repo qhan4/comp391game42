@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 2004086650022571293}
   - component: {fileID: 1297033247006943010}
   - component: {fileID: 6449819698684287167}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 'STORAGE DRAFT '
   m_TagString: Untagged
   m_Icon: {fileID: 0}

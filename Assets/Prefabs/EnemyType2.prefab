@@ -13,8 +13,8 @@ GameObject:
   - component: {fileID: 6307901625139988172}
   - component: {fileID: 6307901625139988173}
   - component: {fileID: 6307901625139988169}
-  m_Layer: 0
-  m_Name: ENEMY 2 COMPLETED
+  m_Layer: 10
+  m_Name: EnemyType2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -93,7 +93,7 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6307901625139988210}
-  m_BodyType: 0
+  m_BodyType: 1
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
