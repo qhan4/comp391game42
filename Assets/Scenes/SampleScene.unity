@@ -141,7 +141,7 @@ GameObject:
   - component: {fileID: 75903622}
   - component: {fileID: 75903621}
   - component: {fileID: 75903620}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: CONNECTION ROOM v1 DRAFT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -483,7 +483,7 @@ GameObject:
   - component: {fileID: 256125301}
   - component: {fileID: 256125300}
   - component: {fileID: 256125299}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: CONNECTION ROOM v2 DRAFT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -885,7 +885,7 @@ GameObject:
   - component: {fileID: 603626051}
   - component: {fileID: 603626050}
   - component: {fileID: 603626049}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Player
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -928,8 +928,8 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!61 &603626051
-BoxCollider2D:
+--- !u!58 &603626051
+CircleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -941,19 +941,9 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -0.7709677}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 8.64, y: 8.28}
-    newSize: {x: 2.81, y: 2.79}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
+  m_Offset: {x: 0, y: -0.5}
   serializedVersion: 2
-  m_Size: {x: 2.81, y: 4.331935}
-  m_EdgeRadius: 0
+  m_Radius: 2.136234
 --- !u!212 &603626052
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1162,7 +1152,7 @@ GameObject:
   - component: {fileID: 1679681524}
   - component: {fileID: 1679681523}
   - component: {fileID: 1679681522}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: HALLWAY DRAFT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
