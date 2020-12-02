@@ -16,18 +16,28 @@ public class GenerateEndRoom : MonoBehaviour
         GameObject storagePrefab = Resources.Load <GameObject>("StorageRoom");
 
         int i = Random.Range(1, 4);
+        GameObject room;
 
         if (i == 1)
         {
-            GameObject room = (GameObject)Instantiate(cafeteriaPrefab, tf);
+            room = (GameObject)Instantiate(cafeteriaPrefab, tf);
         }
         else if (i == 2)
         {
-            GameObject room = (GameObject)Instantiate(serverPrefab, tf);
+            room = (GameObject)Instantiate(serverPrefab, tf);
         }
-        else if (i == 3)
+        else
         {
-            GameObject room = (GameObject)Instantiate(storagePrefab, tf);
+            room = (GameObject)Instantiate(storagePrefab, tf);
+        }
+
+        // un-rotate the monsters
+        foreach (Transform child in room.transform)
+        {
+            if (child.gameObject.layer == 10)
+            {
+                child.Rotate(new Vector3(0f, 0f, -tf.rotation.eulerAngles.z));
+            }
         }
     }
 

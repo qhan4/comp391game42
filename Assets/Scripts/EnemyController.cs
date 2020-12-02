@@ -20,8 +20,7 @@ public class EnemyController : MonoBehaviour
     {
         if (collision.gameObject.tag == "bullet")
         {
-            Destroy(gameObject, 2.0f);
-            Destroy(collision.gameObject);
+            Destroy(gameObject);
         }
     }
 }
