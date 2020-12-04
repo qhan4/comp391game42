@@ -215,7 +215,7 @@ GameObject:
   m_Component:
   - component: {fileID: 271264477}
   - component: {fileID: 271264478}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: HALLWAY DRAFT_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -531,6 +531,53 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &469418464
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 469418465}
+  - component: {fileID: 469418466}
+  m_Layer: 9
+  m_Name: EnemyTrigger
+  m_TagString: EnemyTrigger
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &469418465
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 469418464}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 509287801}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!58 &469418466
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 469418464}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 50
 --- !u!1 &509287796
 GameObject:
   m_ObjectHideFlags: 0
@@ -669,6 +716,7 @@ Transform:
   - {fileID: 865889750}
   - {fileID: 2016712787}
   - {fileID: 745287592}
+  - {fileID: 469418465}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -776,7 +824,7 @@ GameObject:
   - component: {fileID: 733059682}
   - component: {fileID: 733059681}
   - component: {fileID: 733059680}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Hub1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1214,7 +1262,7 @@ GameObject:
   m_Component:
   - component: {fileID: 756521488}
   - component: {fileID: 756521489}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: HALLWAY DRAFT_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1672,7 +1720,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1209477917}
   - component: {fileID: 1209477916}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: HallShort
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1754,7 +1802,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1562853701}
   - component: {fileID: 1562853702}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: HALLWAY DRAFT_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2217,7 +2265,7 @@ GameObject:
   - component: {fileID: 1866202228}
   - component: {fileID: 1866202227}
   - component: {fileID: 1866202226}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: HallLong
   m_TagString: Untagged
   m_Icon: {fileID: 0}
