@@ -41,6 +41,11 @@ public class PlayerController : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        //Debug.Log("collision with " + collision.gameObject.name);
+
+        if (collision.gameObject.layer == 10)
+        {
+            health -= 1;
+            healthbar.SetHealth(health);
+        }
     }
 }

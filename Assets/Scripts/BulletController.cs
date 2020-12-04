@@ -8,10 +8,12 @@ public class BulletController : MonoBehaviour
 
     Rigidbody2D rb;
 
+    public float life = 1f;
+
     // Start is called before the first frame update
     void Start()
     {
-        Destroy(gameObject, 1.0f);
+        Destroy(gameObject, life);
         //GetComponent<Rigidbody2D>().AddForce(transform.forward * 400);
 
         rb = GetComponent<Rigidbody2D>();
@@ -25,6 +27,9 @@ public class BulletController : MonoBehaviour
     private void OnCollisionEnter2D(Collision2D collision)
     {
         // destroy bullet on wall collision
-        Destroy(gameObject);
+        if (collision.gameObject.tag != "EnemyAttack")
+        {
+            Destroy(gameObject);
+        }
     }
 }
