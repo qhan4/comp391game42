@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 7227142521377616251}
   - component: {fileID: 361777622490137031}
   - component: {fileID: 8312249586423677281}
+  - component: {fileID: -7110386567529499925}
   m_Layer: 10
   m_Name: TestEnemyBullet
   m_TagString: EnemyAttack
@@ -135,3 +136,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   life: 3
+--- !u!95 &-7110386567529499925
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 677074859149562596}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 61a67e2aea3e74f2b90ef88a229fde6c, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0

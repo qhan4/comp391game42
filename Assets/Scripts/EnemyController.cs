@@ -14,6 +14,7 @@ public class EnemyController : MonoBehaviour
     float currentACD;
 
     public GameObject projectile;
+    public GameObject enemyBile;
     public float projectileSpeed = 10f;
 
     // Start is called before the first frame update
@@ -26,6 +27,14 @@ public class EnemyController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        float distancePE = Vector3.Distance(player.transform.position, transform.position);
+        Debug.Log(distancePE +  " To " + gameObject.name);
+
+        if (distancePE <= 10)
+        {
+            state = "active";
+        }
+
         if (state == "active")
         {
             if (enemyType == 2)
@@ -99,6 +108,7 @@ public class EnemyController : MonoBehaviour
         if (collision.gameObject.tag == "bullet")
         {
             Destroy(gameObject);
+            GameObject enemyBileClone = Instantiate(enemyBile, transform.position, transform.rotation);
         }
         if (collision.gameObject.layer == 8)
         {

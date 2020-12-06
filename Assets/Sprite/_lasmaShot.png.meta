@@ -1,0 +1,1090 @@
+fileFormatVersion: 2
+guid: 36fad1994473f4394ade1146d0b8ccf6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5376551255781835331
+    second: _lasmaShot_0
+  - first:
+      213: -2773405379750648285
+    second: _lasmaShot_1
+  - first:
+      213: -480411067649687016
+    second: _lasmaShot_2
+  - first:
+      213: 1868972484804740490
+    second: _lasmaShot_3
+  - first:
+      213: -8391774662467451122
+    second: _lasmaShot_4
+  - first:
+      213: -2550257642153534006
+    second: _lasmaShot_5
+  - first:
+      213: 5934260642793874897
+    second: _lasmaShot_6
+  - first:
+      213: -389783725371770041
+    second: _lasmaShot_7
+  - first:
+      213: -8907535681994855367
+    second: _lasmaShot_8
+  - first:
+      213: 6939193306141599020
+    second: _lasmaShot_9
+  - first:
+      213: 4538068958574591367
+    second: _lasmaShot_10
+  - first:
+      213: -5652548533806147592
+    second: _lasmaShot_11
+  - first:
+      213: 4979784068434511389
+    second: _lasmaShot_12
+  - first:
+      213: -5599190189574430976
+    second: _lasmaShot_13
+  - first:
+      213: 3647421137830035182
+    second: _lasmaShot_14
+  - first:
+      213: 1138651996878753349
+    second: _lasmaShot_15
+  - first:
+      213: 5469639311881985235
+    second: _lasmaShot_16
+  - first:
+      213: -2268330918507238869
+    second: _lasmaShot_17
+  - first:
+      213: -7886321866044285586
+    second: _lasmaShot_18
+  - first:
+      213: -1926270851301874990
+    second: _lasmaShot_19
+  - first:
+      213: -7771976592309773141
+    second: _lasmaShot_20
+  - first:
+      213: -1826356157383021811
+    second: _lasmaShot_21
+  - first:
+      213: 2428982842740227217
+    second: _lasmaShot_22
+  - first:
+      213: -4145372068002218453
+    second: _lasmaShot_23
+  - first:
+      213: 7535415563666483036
+    second: _lasmaShot_24
+  - first:
+      213: -2966242732393759788
+    second: _lasmaShot_25
+  - first:
+      213: 1823855105697103374
+    second: _lasmaShot_26
+  - first:
+      213: 8256308574061667315
+    second: _lasmaShot_27
+  - first:
+      213: 7644673678071190377
+    second: _lasmaShot_28
+  - first:
+      213: 6119457816024985564
+    second: _lasmaShot_29
+  - first:
+      213: -5711806217532558529
+    second: _lasmaShot_30
+  - first:
+      213: -7787538399025324247
+    second: _lasmaShot_31
+  - first:
+      213: -1427035596842210670
+    second: _lasmaShot_32
+  - first:
+      213: -4548055717979800162
+    second: _lasmaShot_33
+  - first:
+      213: 5039635738355456173
+    second: _lasmaShot_34
+  - first:
+      213: 2441327459830921626
+    second: _lasmaShot_35
+  - first:
+      213: 8257446146051788621
+    second: _lasmaShot_36
+  - first:
+      213: 7045954512634249185
+    second: _lasmaShot_37
+  - first:
+      213: -7864668188021718295
+    second: _lasmaShot_38
+  - first:
+      213: 168981298477231538
+    second: _lasmaShot_39
+  - first:
+      213: -8845169143866134825
+    second: _lasmaShot_40
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: _lasmaShot_0
+      rect:
+        serializedVersion: 2
+        x: 1110
+        y: 1191
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbd717a7e17a265b0800000000000000
+      internalID: -5376551255781835331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _lasmaShot_1
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 966
+        width: 221
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3262ec15082e289d0800000000000000
+      internalID: -2773405379750648285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _lasmaShot_2
+      rect:
+        serializedVersion: 2
+        x: 891
+        y: 1147
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8120396edac3559f0800000000000000
+      internalID: -480411067649687016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _lasmaShot_3
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 1146
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8504cb929cefe910800000000000000
+      internalID: 1868972484804740490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _lasmaShot_4
+      rect:
+        serializedVersion: 2
+        x: 951
+        y: 973
+        width: 255
+        height: 199
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e070180f76d6a8b80800000000000000
+      internalID: -8391774662467451122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _lasmaShot_5
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 1123
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acd96b1bf2aab9cd0800000000000000
+      internalID: -2550257642153534006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _lasmaShot_6
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 1098
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d56f421d9aba5250800000000000000
+      internalID: 5934260642793874897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _lasmaShot_7
+      rect:
+        serializedVersion: 2
+        x: 892
+        y: 1099
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74bbcf554c5379af0800000000000000
+      internalID: -389783725371770041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _lasmaShot_8
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 1094
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93c649acd73126480800000000000000
+      internalID: -8907535681994855367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _lasmaShot_9
+      rect:
+        serializedVersion: 2
+        x: 929
+        y: 1086
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c25a658eb87fc4060800000000000000
+      internalID: 6939193306141599020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _lasmaShot_10
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 1080
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78db0129ca57afe30800000000000000
+      internalID: 4538068958574591367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _lasmaShot_11
+      rect:
+        serializedVersion: 2
+        x: 892
+        y: 1038
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f754d69e0d1e81b0800000000000000
+      internalID: -5652548533806147592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _lasmaShot_12
+      rect:
+        serializedVersion: 2
+        x: 929
+        y: 1025
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d164039e93fbb1540800000000000000
+      internalID: 4979784068434511389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _lasmaShot_13
+      rect:
+        serializedVersion: 2
+        x: 1125
+        y: 471
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00f5098303eab42b0800000000000000
+      internalID: -5599190189574430976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _lasmaShot_14
+      rect:
+        serializedVersion: 2
+        x: 844
+        y: 463
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eee3c92333e3e9230800000000000000
+      internalID: 3647421137830035182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _lasmaShot_15
+      rect:
+        serializedVersion: 2
+        x: 949
+        y: 273
+        width: 265
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54e4fb455fd4dcf00800000000000000
+      internalID: 1138651996878753349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _lasmaShot_16
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 441
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dcdc3a89ff08eb40800000000000000
+      internalID: 5469639311881985235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _lasmaShot_17
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 277
+        width: 255
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2a27593c054580e0800000000000000
+      internalID: -2268330918507238869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _lasmaShot_18
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 427
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6dd80edb082e8290800000000000000
+      internalID: -7886321866044285586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _lasmaShot_19
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 416
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d266f6ddd28445e0800000000000000
+      internalID: -1926270851301874990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _lasmaShot_20
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 412
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bac99bc8774642490800000000000000
+      internalID: -7771976592309773141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _lasmaShot_21
+      rect:
+        serializedVersion: 2
+        x: 886
+        y: 418
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0b66d550ca77a6e0800000000000000
+      internalID: -1826356157383021811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _lasmaShot_22
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 406
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19cbc03b60b75b120800000000000000
+      internalID: 2428982842740227217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _lasmaShot_23
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 398
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2eb6e8311ea876c0800000000000000
+      internalID: -4145372068002218453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _lasmaShot_24
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 398
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c576a43e78c239860800000000000000
+      internalID: 7535415563666483036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _lasmaShot_25
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 385
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dbf51263f9c5d6d0800000000000000
+      internalID: -2966242732393759788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _lasmaShot_26
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 384
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0ebbd03e82af4910800000000000000
+      internalID: 1823855105697103374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _lasmaShot_27
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 388
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f325f087ec449270800000000000000
+      internalID: 8256308574061667315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _lasmaShot_28
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 370
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 963563df436571a60800000000000000
+      internalID: 7644673678071190377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _lasmaShot_29
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 376
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdf282e167eace450800000000000000
+      internalID: 6119457816024985564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _lasmaShot_30
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 372
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f33ba12f1869bb0b0800000000000000
+      internalID: -5711806217532558529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _lasmaShot_31
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 376
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92f9163161b1de390800000000000000
+      internalID: -7787538399025324247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _lasmaShot_32
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 370
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29ae1687fa6223ce0800000000000000
+      internalID: -1427035596842210670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _lasmaShot_33
+      rect:
+        serializedVersion: 2
+        x: 884
+        y: 373
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9d312fcb6f02e0c0800000000000000
+      internalID: -4548055717979800162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _lasmaShot_34
+      rect:
+        serializedVersion: 2
+        x: 914
+        y: 371
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da85a0eb00260f540800000000000000
+      internalID: 5039635738355456173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _lasmaShot_35
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 367
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a99f0a7d36651e120800000000000000
+      internalID: 2441327459830921626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _lasmaShot_36
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 356
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4fc55f1587589270800000000000000
+      internalID: 8257446146051788621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _lasmaShot_37
+      rect:
+        serializedVersion: 2
+        x: 846
+        y: 356
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1efff155c4248c160800000000000000
+      internalID: 7045954512634249185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _lasmaShot_38
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 350
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e286a8a3f51bd290800000000000000
+      internalID: -7864668188021718295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _lasmaShot_39
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 336
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bd6b6d7897585200800000000000000
+      internalID: 168981298477231538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _lasmaShot_40
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 338
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7deec910785af3580800000000000000
+      internalID: -8845169143866134825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
