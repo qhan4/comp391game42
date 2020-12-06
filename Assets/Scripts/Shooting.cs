@@ -5,6 +5,9 @@ public class Shooting : MonoBehaviour
     public GameObject bullet;
     public Transform firePoint;
     public float bulletSpeed = 10;
+    private AudioSource shootSound;
+    public AudioClip shootClip;
+    
 
     Vector2 lookDirection;
     float lookAngle;
@@ -28,6 +31,26 @@ public class Shooting : MonoBehaviour
             bulletClone.transform.rotation = Quaternion.Euler(0, 0, lookAngle);
 
             bulletClone.GetComponent<Rigidbody2D>().velocity = firePoint.right * bulletSpeed;
+            //shootSound.PlayOneShot(shootClip);
+            //shootSound.Stop();
+
+            //Invoke(nameof(stopShootSound), shootClip.length);
+
+           shootSound = gameObject.AddComponent<AudioSource>();
+            //shootSound.clip = shootClip;
+            shootSound.PlayOneShot(shootClip);
+            Destroy(GetComponent<AudioSource>(), shootClip.length);
+
         }
+
     }
+
+    private void stopShootSound()
+    {
+        shootSound.Stop();
+    }
+
+
+
+
 }
