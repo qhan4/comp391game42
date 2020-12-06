@@ -16,13 +16,10 @@ public class EnemyController : MonoBehaviour
     public GameObject enemyBile;
     public float projectileSpeed = 10f;
 
-<<<<<<< HEAD
     private AudioSource shootingSound;
     public AudioClip shootingClip;
 
-=======
     SpriteRenderer sr;
->>>>>>> 6f8d0dee61aaaf707bc18560428fe2821b1f38c5
 
     // Start is called before the first frame update
     void Start()
