@@ -17,6 +17,9 @@ public class EnemyController : MonoBehaviour
     public GameObject enemyBile;
     public float projectileSpeed = 10f;
 
+    private AudioSource shootingSound;
+    public AudioClip shootingClip;
+
     SpriteRenderer sr;
 
     // Start is called before the first frame update
@@ -57,6 +60,10 @@ public class EnemyController : MonoBehaviour
 
                         projectileClone.transform.rotation = Quaternion.Euler(0, 0, fireAngle);
                         projectileClone.GetComponent<Rigidbody2D>().velocity = fireDirection * projectileSpeed;
+                        shootingSound = gameObject.AddComponent<AudioSource>();
+                        //shootSound.clip = shootClip;
+                        shootingSound.PlayOneShot(shootingClip);
+                        Destroy(GetComponent<AudioSource>(), shootingClip.length);
                     }
 
                     currentACD = attackCooldown;
