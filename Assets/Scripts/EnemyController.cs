@@ -13,32 +13,28 @@ public class EnemyController : MonoBehaviour
     public float attackCooldown = 1f;
     float currentACD;
 
-    public GameObject projectile;
     public GameObject enemyBile;
     public float projectileSpeed = 10f;
 
+<<<<<<< HEAD
     private AudioSource shootingSound;
     public AudioClip shootingClip;
 
+=======
+    SpriteRenderer sr;
+>>>>>>> 6f8d0dee61aaaf707bc18560428fe2821b1f38c5
 
     // Start is called before the first frame update
     void Start()
     {
         player = GameObject.Find("Player");
         currentACD = attackCooldown;
+        sr = GetComponent<SpriteRenderer>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        float distancePE = Vector3.Distance(player.transform.position, transform.position);
-        Debug.Log(distancePE +  " To " + gameObject.name);
-
-        if (distancePE <= 10)
-        {
-            state = "active";
-        }
-
         if (state == "active")
         {
             if (enemyType == 2)
@@ -52,7 +48,7 @@ public class EnemyController : MonoBehaviour
                 {
                     currentACD -= 1 * Time.deltaTime;
                 }
-                else if (projectile)
+                else if (enemyBile)
                 {
                     float fireAngle = Mathf.Atan2(delta.y, delta.x) * Mathf.Rad2Deg;
 
@@ -61,7 +57,7 @@ public class EnemyController : MonoBehaviour
                         //Vector2 fireDirection = new Vector2(delta.x, delta.y).normalized;
                         float radAngle = (fireAngle + (30 * i)) * Mathf.Deg2Rad;
                         Vector2 fireDirection = new Vector2(Mathf.Cos(radAngle), Mathf.Sin(radAngle)).normalized;
-                        GameObject projectileClone = Instantiate(projectile);
+                        GameObject projectileClone = Instantiate(enemyBile);
                         projectileClone.transform.position = transform.position;
 
                         projectileClone.transform.rotation = Quaternion.Euler(0, 0, fireAngle);
@@ -73,6 +69,16 @@ public class EnemyController : MonoBehaviour
                     }
 
                     currentACD = attackCooldown;
+                }
+
+                // flip the sprite when going left
+                if (delta.x < 0)
+                {
+                    sr.flipX = true;
+                }
+                else
+                {
+                    sr.flipX = false;
                 }
 
                 if (delta.magnitude < 8)
@@ -102,6 +108,16 @@ public class EnemyController : MonoBehaviour
                     Vector3 delta = player.transform.position - transform.position;
                     delta.z = 0;
                     delta = delta.normalized;
+
+                    // flip the sprite when going left
+                    if (delta.x < 0)
+                    {
+                        sr.flipX = true;
+                    }
+                    else
+                    {
+                        sr.flipX = false;
+                    }
 
                     transform.Translate(delta.x * speed * Time.deltaTime, delta.y * speed * Time.deltaTime, 0);
 
