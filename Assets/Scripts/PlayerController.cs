@@ -11,6 +11,7 @@ public class PlayerController : MonoBehaviour
 
     public float distance = 10.0f;
     public HPManager healthbar;
+    public GameObject gameOverScreen;
 
 
     float mx;
@@ -36,7 +37,10 @@ public class PlayerController : MonoBehaviour
 
     private void FixedUpdate()
     {
-        rb.velocity = new Vector2(mx, my) * speed;
+        if (health > 0)
+        {
+            rb.velocity = new Vector2(mx, my) * speed;
+        }
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
@@ -46,6 +50,11 @@ public class PlayerController : MonoBehaviour
         {
             health -= 1;
             healthbar.SetHealth(health);
+
+            if (health <= 0)
+            {
+                gameOverScreen.SetActive(true);
+            }
         }
     }
 }

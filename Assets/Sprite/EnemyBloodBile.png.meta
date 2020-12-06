@@ -539,12 +539,12 @@ TextureImporter:
       name: EnemyBloodBile_0
       rect:
         serializedVersion: 2
-        x: 128
-        y: 800
+        x: 136
+        y: 758
         width: 512
         height: 512
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.35527444, y: 0.5804026}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -565,7 +565,7 @@ TextureImporter:
         width: 512
         height: 512
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -581,12 +581,12 @@ TextureImporter:
       name: EnemyBloodBile_2
       rect:
         serializedVersion: 2
-        x: 128
-        y: 160
-        width: 512
-        height: 512
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 84
+        y: 108
+        width: 510
+        height: 509
+      alignment: 9
+      pivot: {x: 0.44564897, y: 0.4591568}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -602,12 +602,12 @@ TextureImporter:
       name: EnemyBloodBile_3
       rect:
         serializedVersion: 2
-        x: 768
-        y: 160
+        x: 790
+        y: 141
         width: 512
         height: 512
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.48391938, y: 0.3874355}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
