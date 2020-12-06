@@ -8,7 +8,7 @@ public class BulletController : MonoBehaviour
 
     Rigidbody2D rb;
 
-    public float life = 1f;
+    public float life = 1.5f;
 
     // Start is called before the first frame update
     void Start()

@@ -14,6 +14,7 @@ public class EnemyController : MonoBehaviour
     float currentACD;
 
     public GameObject projectile;
+    public GameObject enemyBile;
     public float projectileSpeed = 10f;
 
     // Start is called before the first frame update
@@ -107,6 +108,7 @@ public class EnemyController : MonoBehaviour
         if (collision.gameObject.tag == "bullet")
         {
             Destroy(gameObject);
+            GameObject enemyBileClone = Instantiate(enemyBile, transform.position, transform.rotation);
         }
         if (collision.gameObject.layer == 8)
         {
