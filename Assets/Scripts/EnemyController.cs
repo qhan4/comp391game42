@@ -26,6 +26,14 @@ public class EnemyController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        float distancePE = Vector3.Distance(player.transform.position, transform.position);
+        Debug.Log(distancePE +  " To " + gameObject.name);
+
+        if (distancePE <= 10)
+        {
+            state = "active";
+        }
+
         if (state == "active")
         {
             if (enemyType == 2)
