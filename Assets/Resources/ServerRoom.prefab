@@ -60,7 +60,7 @@ GameObject:
   - component: {fileID: 3206938015079523645}
   - component: {fileID: 8045771680800837746}
   m_Layer: 8
-  m_Name: SERVER ROOM DRAFT
+  m_Name: SERVER ROOM BG
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -120,7 +120,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: ea2a931466c7be14083147915f661c9e, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 40ce36c6a32cb6d44bf9aa839ed83789, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0

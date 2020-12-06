@@ -121,7 +121,8 @@ MonoBehaviour:
   speed: 2
   enemyType: 2
   attackCooldown: 1
-  enemyBile: {fileID: 677074859149562596, guid: 1a45101e18ab7834eb975773647de236, type: 3}
+  projectile: {fileID: 677074859149562596, guid: 1a45101e18ab7834eb975773647de236, type: 3}
+  enemyBile: {fileID: 3662144607511061268, guid: 71986002cac524b66bd9475a699ddd1a, type: 3}
   projectileSpeed: 10
 --- !u!58 &71834625704797067
 CircleCollider2D:

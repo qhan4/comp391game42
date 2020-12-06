@@ -13,6 +13,7 @@ public class EnemyController : MonoBehaviour
     public float attackCooldown = 1f;
     float currentACD;
 
+    public GameObject projectile;
     public GameObject enemyBile;
     public float projectileSpeed = 10f;
 
@@ -42,7 +43,7 @@ public class EnemyController : MonoBehaviour
                 {
                     currentACD -= 1 * Time.deltaTime;
                 }
-                else if (enemyBile)
+                else if (projectile)
                 {
                     float fireAngle = Mathf.Atan2(delta.y, delta.x) * Mathf.Rad2Deg;
 
@@ -51,7 +52,7 @@ public class EnemyController : MonoBehaviour
                         //Vector2 fireDirection = new Vector2(delta.x, delta.y).normalized;
                         float radAngle = (fireAngle + (30 * i)) * Mathf.Deg2Rad;
                         Vector2 fireDirection = new Vector2(Mathf.Cos(radAngle), Mathf.Sin(radAngle)).normalized;
-                        GameObject projectileClone = Instantiate(enemyBile);
+                        GameObject projectileClone = Instantiate(projectile);
                         projectileClone.transform.position = transform.position;
 
                         projectileClone.transform.rotation = Quaternion.Euler(0, 0, fireAngle);

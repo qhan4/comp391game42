@@ -17,7 +17,7 @@ GameObject:
   - component: {fileID: 1297033247006943010}
   - component: {fileID: 6449819698684287167}
   m_Layer: 8
-  m_Name: 'STORAGE DRAFT '
+  m_Name: STORAGE BG
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -77,7 +77,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: cc21634f808a17847a18e0cbee7b392b, type: 3}
+  m_Sprite: {fileID: 21300000, guid: d4e165628f24a4d49b50de5543bc45e0, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0

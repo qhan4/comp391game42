@@ -24,7 +24,7 @@ public class CrateController : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.layer == 9)
+        if (collision.gameObject.tag == "bullet")
         {
             // break when the player shoots it
             sr.sprite = brokenCrate;

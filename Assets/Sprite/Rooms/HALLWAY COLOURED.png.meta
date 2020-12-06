@@ -1,16 +1,16 @@
 fileFormatVersion: 2
-guid: 79d0788fde97e374da326a35b99906a8
+guid: 684767195870c2a4d87e1005d67163f3
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6558103881125785869
-    second: HALLWAY DRAFT_0
+      213: 2345495041015983465
+    second: HALLWAY COLOURED_0
   - first:
-      213: 3900246453441590090
-    second: HALLWAY DRAFT_1
+      213: 51477141075766326
+    second: HALLWAY COLOURED_1
   - first:
-      213: -8046982778370779354
-    second: HALLWAY DRAFT_2
+      213: -8033498289364911930
+    second: HALLWAY COLOURED_2
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -56,7 +56,7 @@ TextureImporter:
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
-  spriteBorder: {x: 971, y: 0, z: 976, w: 0}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
@@ -98,13 +98,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: HALLWAY DRAFT_0
+      name: HALLWAY COLOURED_0
       rect:
         serializedVersion: 2
-        x: 600
-        y: 1333.3333
-        width: 1500
-        height: 666.6667
+        x: 0
+        y: 1413
+        width: 902
+        height: 587
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -112,20 +112,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3fe0365344fecf4a0800000000000000
-      internalID: -6558103881125785869
+      spriteID: 96da236105fdc8020800000000000000
+      internalID: 2345495041015983465
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HALLWAY DRAFT_1
+      name: HALLWAY COLOURED_1
       rect:
         serializedVersion: 2
-        x: 600
-        y: 667.3333
-        width: 1500
-        height: 666.6667
+        x: 0
+        y: 557
+        width: 901
+        height: 858
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -133,20 +133,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a43fcd92c75702630800000000000000
-      internalID: 3900246453441590090
+      spriteID: 63cafd3ef22e6b000800000000000000
+      internalID: 51477141075766326
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HALLWAY DRAFT_2
+      name: HALLWAY COLOURED_2
       rect:
         serializedVersion: 2
-        x: 600
-        y: 1.333313
-        width: 1500
-        height: 666.6667
+        x: 0
+        y: 1
+        width: 901
+        height: 556
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -154,8 +154,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 627168d3ccf535090800000000000000
-      internalID: -8046982778370779354
+      spriteID: 6c832be7ed7438090800000000000000
+      internalID: -8033498289364911930
       vertices: []
       indices: 
       edges: []
