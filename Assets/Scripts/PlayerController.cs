@@ -8,6 +8,7 @@ public class PlayerController : MonoBehaviour
 
     public float speed = 3f;
     Rigidbody2D rb;
+    SpriteRenderer sr;
 
     public float distance = 10.0f;
     public HPManager healthbar;
@@ -24,6 +25,7 @@ public class PlayerController : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         healthbar.SetHealth(health);
+        sr = GetComponent<SpriteRenderer>();
     }
 
     // Update is called once per frame
@@ -39,6 +41,15 @@ public class PlayerController : MonoBehaviour
     {
         if (health > 0)
         {
+            if (mx < 0)
+            {
+                sr.flipX = true;
+            }
+            else
+            {
+                sr.flipX = false;
+            }
+
             rb.velocity = new Vector2(mx, my) * speed;
         }
     }
@@ -54,6 +65,7 @@ public class PlayerController : MonoBehaviour
             if (health <= 0)
             {
                 gameOverScreen.SetActive(true);
+                rb.velocity = Vector2.zero;
             }
         }
     }
