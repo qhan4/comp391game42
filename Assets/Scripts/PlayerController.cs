@@ -28,6 +28,7 @@ public class PlayerController : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         healthbar.SetHealth(health);
         sr = GetComponent<SpriteRenderer>();
+        audioSource = gameObject.AddComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -64,7 +65,6 @@ public class PlayerController : MonoBehaviour
             health -= 1;
             healthbar.SetHealth(health);
 
-            audioSource = GameObject.Find("SoundSource").GetComponent(typeof(AudioSource)) as AudioSource;
             audioSource.PlayOneShot(hitClip);
 
             if (health <= 0)

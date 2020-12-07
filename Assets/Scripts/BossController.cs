@@ -59,11 +59,12 @@ public class BossController : MonoBehaviour
 
                     projectileClone.transform.rotation = Quaternion.Euler(0, 0, radAngle * Mathf.Rad2Deg);
                     projectileClone.GetComponent<Rigidbody2D>().velocity = fireDirection * projectileSpeed;
-                    shootingSound = gameObject.AddComponent<AudioSource>();
-                    //shootSound.clip = shootClip;
-                    shootingSound.PlayOneShot(shootingClip);
-                    Destroy(GetComponent<AudioSource>(), shootingClip.length);
+                    
                 }
+                shootingSound = gameObject.AddComponent<AudioSource>();
+                //shootSound.clip = shootClip;
+                shootingSound.PlayOneShot(shootingClip);
+                Destroy(GetComponent<AudioSource>(), shootingClip.length);
 
                 currentACD = attackCooldown;
             }

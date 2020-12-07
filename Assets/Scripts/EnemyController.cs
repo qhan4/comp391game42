@@ -30,6 +30,8 @@ public class EnemyController : MonoBehaviour
         player = GameObject.Find("Player");
         currentACD = attackCooldown;
         sr = GetComponent<SpriteRenderer>();
+        hitAudio = gameObject.AddComponent<AudioSource>();
+        shootingSound = gameObject.AddComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -62,11 +64,11 @@ public class EnemyController : MonoBehaviour
 
                         projectileClone.transform.rotation = Quaternion.Euler(0, 0, fireAngle);
                         projectileClone.GetComponent<Rigidbody2D>().velocity = fireDirection * projectileSpeed;
-                        shootingSound = gameObject.AddComponent<AudioSource>();
-                        //shootSound.clip = shootClip;
-                        shootingSound.PlayOneShot(shootingClip, 0.4f);
-                        Destroy(GetComponent<AudioSource>(), shootingClip.length);
+                        
                     }
+                    //shootingSound.clip = shootingClip;
+                    shootingSound.PlayOneShot(shootingClip, 0.4f);
+                    //Destroy(GetComponent<AudioSource>(), shootingClip.length);
 
                     currentACD = attackCooldown;
                 }
@@ -131,10 +133,8 @@ public class EnemyController : MonoBehaviour
     {
         if (collision.gameObject.tag == "bullet")
         {
-
-            Destroy(gameObject);
-            hitAudio = GameObject.Find("SoundSource").GetComponent(typeof(AudioSource)) as AudioSource;
             hitAudio.PlayOneShot(hitSoundClip);
+            Destroy(gameObject);
             GameObject enemyBileClone = Instantiate(enemyBile, transform.position, transform.rotation);
         }
         if (collision.gameObject.layer == 8)
