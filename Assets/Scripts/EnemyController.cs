@@ -18,6 +18,8 @@ public class EnemyController : MonoBehaviour
     public float projectileSpeed = 10f;
 
     private AudioSource shootingSound;
+    private AudioSource hitAudio;
+    public AudioClip hitSoundClip;
     public AudioClip shootingClip;
 
     SpriteRenderer sr;
@@ -62,7 +64,7 @@ public class EnemyController : MonoBehaviour
                         projectileClone.GetComponent<Rigidbody2D>().velocity = fireDirection * projectileSpeed;
                         shootingSound = gameObject.AddComponent<AudioSource>();
                         //shootSound.clip = shootClip;
-                        shootingSound.PlayOneShot(shootingClip);
+                        shootingSound.PlayOneShot(shootingClip, 0.4f);
                         Destroy(GetComponent<AudioSource>(), shootingClip.length);
                     }
 
@@ -129,7 +131,10 @@ public class EnemyController : MonoBehaviour
     {
         if (collision.gameObject.tag == "bullet")
         {
+
             Destroy(gameObject);
+            hitAudio = GameObject.Find("SoundSource").GetComponent(typeof(AudioSource)) as AudioSource;
+            hitAudio.PlayOneShot(hitSoundClip);
             GameObject enemyBileClone = Instantiate(enemyBile, transform.position, transform.rotation);
         }
         if (collision.gameObject.layer == 8)

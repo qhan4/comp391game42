@@ -13,6 +13,8 @@ public class PlayerController : MonoBehaviour
     public float distance = 10.0f;
     public HPManager healthbar;
     public GameObject gameOverScreen;
+    private AudioSource audioSource;
+    public AudioClip hitClip;
 
 
     float mx;
@@ -61,6 +63,9 @@ public class PlayerController : MonoBehaviour
         {
             health -= 1;
             healthbar.SetHealth(health);
+
+            audioSource = GameObject.Find("SoundSource").GetComponent(typeof(AudioSource)) as AudioSource;
+            audioSource.PlayOneShot(hitClip);
 
             if (health <= 0)
             {

@@ -37,7 +37,6 @@ public class Shooting : MonoBehaviour
             //Invoke(nameof(stopShootSound), shootClip.length);
 
            shootSound = gameObject.AddComponent<AudioSource>();
-            //shootSound.clip = shootClip;
             shootSound.PlayOneShot(shootClip);
             Destroy(GetComponent<AudioSource>(), shootClip.length);
 
@@ -45,10 +44,7 @@ public class Shooting : MonoBehaviour
 
     }
 
-    private void stopShootSound()
-    {
-        shootSound.Stop();
-    }
+
 
 
 

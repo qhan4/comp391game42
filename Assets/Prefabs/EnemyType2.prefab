@@ -124,7 +124,8 @@ MonoBehaviour:
   projectile: {fileID: 677074859149562596, guid: 1a45101e18ab7834eb975773647de236, type: 3}
   enemyBile: {fileID: 3662144607511061268, guid: 71986002cac524b66bd9475a699ddd1a, type: 3}
   projectileSpeed: 10
-  shootingSound: {fileID: 2808101580194469902, guid: e189876b709544ef9ba18c1fd247d259, type: 3}
+  hitAudio: {fileID: 0}
+  hitSoundClip: {fileID: 8300000, guid: e4ff797c2673d479a9a7efbe2052755b, type: 3}
   shootingClip: {fileID: 8300000, guid: 77587161d2cd547febd0a721fd75b6c7, type: 3}
 --- !u!58 &71834625704797067
 CircleCollider2D:
